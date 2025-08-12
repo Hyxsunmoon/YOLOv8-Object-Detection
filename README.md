@@ -29,7 +29,7 @@ runs/
 - opencv-python
 - matplotlib
 - ultralytics (推荐直接安装官方 YOLOv8)
-- 其它依赖见 `requirements.txt`（如有）
+- 其它依赖见 `requirements.txt`
 
 安装依赖：
 ```bash
@@ -51,8 +51,8 @@ train: data/images/train
 val: data/images/val
 test: data/images/test
 
-nc: 1  # 类别数
-names: ['your_class_name']
+nc: 7  # 类别数
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray'] #类别名称
 ```
 
 ---
