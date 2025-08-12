@@ -1,0 +1,6 @@
+torch>=1.8
+ultralytics>=8.0.0
+opencv-python
+matplotlib
+numpy
+pandas
