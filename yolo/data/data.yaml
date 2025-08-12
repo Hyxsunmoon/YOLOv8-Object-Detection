@@ -1,0 +1,15 @@
+# 数据集根目录路径 (相对于此yaml文件或绝对路径)
+# 如果你的my_custom_data.yaml在your_dataset_name/ 下，那么路径就是相对路径
+path: /home/huangyixun/yolo/data # 这里指定数据集的根目录
+
+# 训练集图像路径
+train: images/train  # 相对于path指定的根目录
+
+# 验证集图像路径
+val: images/val    # 相对于path指定的根目录
+
+# 类别数量
+nc: 7   # 这里指定类别数量
+
+# 类别名称
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']  # 这里指定类别名称列表
